@@ -1,0 +1,325 @@
+/*****************RESET CSSS*****************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*    ////////// MOBILE FIRST //////////    */
+/* THIS APPLIES FROM 0PX TO 600PX */
+
+body {
+  background: #282a3e;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  color: #a8a8c7;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: block;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lato", "Open Sans" sans-serif;
+  margin: 0;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120%;
+  line-height: 1.5;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p a {
+  color: #e6e6ef;
+  font-weight: 500;
+}
+
+a {
+  color: #e6e6ef;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+span {
+  color: #a8a8c7;
+}
+
+ul li a {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+li {
+  font-family: "Lato";
+  font-size: 1.3rem;
+}
+
+article ul {
+  color: #f6b26b;
+}
+
+article li {
+  color: rgb(236, 140, 140);
+}
+/*      // ESTILOS GENERALES  //     */
+
+.titular {
+  color: #e6e6ef;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.gradiente-t {
+  background-image: linear-gradient(109.8deg, #f6be5f -6.35%, #fa9875 105.29%);
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.overline {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+/*      //    HOME   //         */
+
+.banner__titular {
+  font-size: calc(2.24rem + 2.1vw);
+  line-height: 1;
+  color: white;
+}
+
+.banner__span {
+  font-size: calc(1.7rem + 2.1vw);
+  line-height: 1.5;
+}
+
+/*      //    ABOUT   //        */
+
+div > picture img {
+  display: inline-block;
+  border-radius: 3rem;
+  margin: 0;
+  animation: fadeIn;
+  animation-duration: 4.5s;
+}
+
+/*      //    SKILLS  //        */
+
+/*      //    PORTFOLIO   //    */
+
+/*      //    CONTACT     //    */
+
+/*      //    NAVBAR      //    */
+/* ESTO ES BOOTSTRAP, REMOVER AL EMPEZAR CON SASS */
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(5px);
+}
+
+.navbar-dark {
+  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-hover-color: rgb(255, 255, 255);
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: #e47932;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-color: rgb(255 255 255);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.icon-nav {
+  padding: 5px;
+  font-size: 35px;
+}
+
+.icon-nav__item {
+  display: inline-block;
+  margin-right: 1.125rem;
+  transition: transform 0.5s;
+}
+
+.icon-nav__item:last-child {
+  margin: 0;
+}
+.icon-nav__link {
+  color: #ffffff;
+}
+.icon-nav__link:focus {
+  color: #f6be5f;
+}
+.icon-nav__link:hover {
+  color: #f6be5f;
+}
+.navbar li a:hover {
+  transform: translateY(-0.3rem);
+  color: #f6be5f;
+  transition: all 0.5s ease-out;
+}
+.navbar li a:hover {
+  color: #f6be5f;
+}
+
+/*      //    NAVBAR CUSTOM   //*/
+@media (min-width: 810px) {
+  .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-custom .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-custom .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-custom > .container {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+}
+/*      //    FOOTER      //    */
+
+footer {
+  text-align: center;
+  font-family: "Amatic SC";
+}
+
+footer p {
+  font-size: 2rem;
+  margin: 10px 0px 10px 0px;
+}
+
+footer ul {
+  padding-top: 5rem;
+}
+/*      //  SOCIAL-LINKS   //    */
+
+.social-nav {
+  padding: 0;
+}
+
+.social-nav__item {
+  display: inline-block;
+  margin-right: 1.125rem;
+  transition: transform 0.5s;
+}
+
+.social-nav__item:last-child {
+  margin: 0;
+}
+
+.social-nav__item:hover {
+  transform: translateY(-0.3rem);
+}
+
+.social-nav__link {
+  color: #c7c7db;
+  font-size: 1.8rem;
+}
+
+.social-nav__link:focus {
+  color: #f6be5f;
+}
+
+.social-nav__link:hover {
+  color: #f6be5f;
+}
+
+.social-nav__item {
+  display: inline-block;
+  margin-right: 1.125rem;
+  transition: transform 0.5s;
+  &:last-child {
+    margin: 0;
+  }
+  &:hover {
+    transform: translateY(-0.3rem);
+  }
+}
+
+.social-nav__link {
+  color: #c7c7db;
+  font-size: 2rem;
+  &:hover {
+    color: #f6be5f;
+  }
+}
+
+/*      // BOTONES //       */
+/* ESTO ES BOOTSTRAP, REMOVER AL EMPEZAR CON SASS */
+
+.btn-primary {
+  --bs-btn-color: rgb(0, 0, 0);
+  --bs-btn-bg: #f6be5f;
+  --bs-btn-border-color: #2b2d42;
+  --bs-btn-hover-color: #2b2d42;
+  --bs-btn-hover-bg: #e67223;
+  --bs-btn-hover-border-color: #2b2d42;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #2b2d42;
+  --bs-btn-active-bg: rgb(255, 187, 0);
+  --bs-btn-active-border-color: #000000;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
