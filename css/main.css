@@ -126,13 +126,13 @@ article li {
 /*      //    HOME   //         */
 
 .banner__titular {
-  font-size: calc(2.35rem + 2.1vw);
+  font-size: calc(2.36rem + 2.1vw);
   line-height: 1;
   color: white;
 }
 
 .banner__span {
-  font-size: calc(1.7rem + 2.1vw);
+  font-size: calc(1.8rem + 2.1vw);
   line-height: 1.5;
 }
 
