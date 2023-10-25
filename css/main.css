@@ -90,9 +90,10 @@ article li {
 
 .titular {
   color: #ffffff; /* #e6e6ef */
-  font-size: calc(2rem + 1.2vw);
+  font-size: calc(2.35rem + 1.2vw);
   font-weight: 800;
   line-height: 1.5;
+  padding-top: 5rem;
   margin-bottom: 2.5rem;
 }
 
@@ -125,7 +126,7 @@ article li {
 /*      //    HOME   //         */
 
 .banner__titular {
-  font-size: calc(2.24rem + 2.1vw);
+  font-size: calc(2.35rem + 2.1vw);
   line-height: 1;
   color: white;
 }
