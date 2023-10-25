@@ -117,22 +117,21 @@ article li {
 
 .overline {
   font-family: "Roboto Mono", monospace;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: calc(1rem + 1vw);
+  line-height: 1.5;
   margin-bottom: 10px;
 }
 
 /*      //    HOME   //         */
 
 .banner__titular {
-  font-size: calc(2.36rem + 2.1vw);
+  font-size: calc(2.22rem + 2.1vw);
   line-height: 1;
   color: white;
 }
 
 .banner__span {
-  font-size: calc(1.8rem + 2.1vw);
+  font-size: calc(1.6rem + 2.1vw);
   line-height: 1.5;
 }
 
