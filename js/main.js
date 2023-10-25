@@ -1,7 +1,7 @@
 const typed = new Typed(".typed", {
   strings: [
     '<i class="gradiente-t__orange">Front-End Web.</i>',
-    '<i class="gradiente-t__matrix">Cybersecurity.</i>',
+    '<i class="gradiente-t__matrix">CyberSecurity.</i>',
   ],
 
   //stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
