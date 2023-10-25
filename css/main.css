@@ -50,6 +50,10 @@ p a {
   font-weight: 500;
 }
 
+p a:hover {
+  color: #f6be5f;
+}
+
 a {
   color: #e6e6ef;
   text-decoration: none;
@@ -86,14 +90,23 @@ article li {
 
 .titular {
   color: #e6e6ef;
-  font-size: 2rem;
+  font-size: calc(2rem + 1.2vw);
   font-weight: 800;
   line-height: 1.5;
   margin-bottom: 2.5rem;
 }
 
-.gradiente-t {
+.gradiente-t__orange {
   background-image: linear-gradient(109.8deg, #f6be5f -6.35%, #fa9875 105.29%);
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradiente-t__matrix {
+  background-image: linear-gradient(109.8deg, #73ff00 -6.35%, #00c8c3 105.29%);
   font-style: normal;
   background-clip: border-box;
   font-weight: 700;
@@ -126,7 +139,6 @@ article li {
 
 div > picture img {
   display: inline-block;
-  border-radius: 3rem;
   margin: 0;
   animation: fadeIn;
   animation-duration: 4.5s;
