@@ -89,7 +89,7 @@ article li {
 /*      // ESTILOS GENERALES  //     */
 
 .titular {
-  color: #e6e6ef;
+  color: #ffffff; /* #e6e6ef */
   font-size: calc(2rem + 1.2vw);
   font-weight: 800;
   line-height: 1.5;
