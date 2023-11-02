@@ -1,0 +1,19 @@
+// BASE
+@import "./base";
+
+// LAYOUT
+@import "./layout/nav";
+@import "./layout/footer";
+
+// COMPONENTS
+@import "./components/buttons";
+
+// PAGES
+@import "./pages/index";
+@import "./pages/about";
+@import "./pages/skills";
+@import "./pages/portfolio";
+@import "./pages/blog";
+@import "./pages/contact";
+
+// THEMES
