@@ -1,0 +1,35 @@
+footer {
+  text-align: center;
+
+  ul {
+    padding-top: 5rem;
+  }
+
+  p {
+    font-family: "Amatic SC";
+    font-size: 1.7rem;
+    margin: auto;
+  }
+}
+
+// SOCIAL LINKS //
+
+.social-nav__item {
+  display: inline-block;
+  margin-right: 1.125rem;
+  transition: transform 0.5s;
+  &:last-child {
+    margin: 0;
+  }
+  &:hover {
+    transform: translateY(-0.3rem);
+  }
+}
+
+.social-nav__link {
+  color: #c7c7db;
+  font-size: 2rem;
+  &:hover {
+    color: #f6be5f;
+  }
+}

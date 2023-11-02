@@ -1,0 +1,12 @@
+/*      //    HOME   //         */
+
+.banner {
+  font-size: calc(2.22rem + 2.1vw);
+  line-height: 1;
+
+  &__span {
+    font-size: calc(1.6rem + 2.1vw);
+    line-height: 1.5;
+    color: white;
+  }
+}
