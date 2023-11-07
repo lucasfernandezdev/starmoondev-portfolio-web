@@ -1,6 +1,30 @@
-/*
-.card {
-  --bs-card-bg: #282a3e;
-  color: $color-texto;
+/*      //    PORTFOLIO   //     */
+
+/*      //    MEDIA QUERIES   //     */
+
+@media screen and (min-width: 300px) {
+  .titular {
+    &__portfolio {
+      font-size: calc(2.35rem + 1.2vw);
+      padding-top: 4rem;
+    }
+  }
 }
-*/
+
+@media screen and (min-width: 768px) {
+  .titular {
+    &__portfolio {
+      padding-top: 5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titular {
+    line-height: 1.5;
+
+    &__portfolio {
+      padding-top: 6rem;
+    }
+  }
+}

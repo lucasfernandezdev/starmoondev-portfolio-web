@@ -1,4 +1,4 @@
-/*      //    ABOUT   //        */
+/*      //    ABOUT   //     */
 
 div > picture img {
   display: inline-block;
@@ -8,10 +8,21 @@ div > picture img {
   border-radius: 100rem;
 }
 
-// MEDIA QUERIES //
-
 @media screen and (min-width: 992px) {
   .titular {
-    padding-top: 6rem;
+    &__about {
+      padding-top: 4rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titular {
+    line-height: 1.5;
+
+    &__about {
+      font-size: calc(2.35rem + 1.2vw);
+      padding-top: 6rem;
+    }
   }
 }

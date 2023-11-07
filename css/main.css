@@ -1,4 +1,5 @@
-/*****************RESET CSS*****************/
+/*      //    VARIABLES   //     */
+/*      //    RESET CSS   //     */
 * {
   margin: 0;
   padding: 0;
@@ -75,13 +76,6 @@ p a:hover {
   -webkit-background-clip: text;
 }
 
-.titular {
-  font-size: calc(2.35rem + 1.2vw);
-  font-weight: 800;
-  line-height: 1.5;
-  margin-bottom: 2.5rem;
-}
-
 .overline {
   font-family: "Roboto Mono", monospace;
   font-size: calc(1rem + 1vw);
@@ -89,7 +83,7 @@ p a:hover {
   margin-bottom: 10px;
 }
 
-/*      //    NAVBAR      //    */
+/*      //    NAVBAR  //     */
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(0, 0, 0, 0.3) !important;
@@ -167,6 +161,7 @@ p a:hover {
     display: none;
   }
 }
+/*      //    FOOTER   //     */
 footer {
   text-align: center;
 }
@@ -199,6 +194,7 @@ footer p {
   color: #8eff31;
 }
 
+/*      //    BS BOTONES   //     */
 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: #f6be5f;
@@ -227,7 +223,7 @@ footer p {
   color: white;
 }
 
-/*      //    ABOUT   //        */
+/*      //    ABOUT   //     */
 div > picture img {
   display: inline-block;
   margin: 0;
@@ -237,15 +233,42 @@ div > picture img {
 }
 
 @media screen and (min-width: 992px) {
+  .titular__about {
+    padding-top: 4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
   .titular {
+    line-height: 1.5;
+  }
+  .titular__about {
+    font-size: calc(2.35rem + 1.2vw);
     padding-top: 6rem;
   }
 }
-/*
-.card {
-  --bs-card-bg: #282a3e;
-  color: $color-texto;
+/*      //    SKILLS   //     */
+/*      //    PORTFOLIO   //     */
+/*      //    MEDIA QUERIES   //     */
+@media screen and (min-width: 300px) {
+  .titular__portfolio {
+    font-size: calc(2.35rem + 1.2vw);
+    padding-top: 4rem;
+  }
 }
-*/
+@media screen and (min-width: 768px) {
+  .titular__portfolio {
+    padding-top: 5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .titular {
+    line-height: 1.5;
+  }
+  .titular__portfolio {
+    padding-top: 6rem;
+  }
+}
+/*      //    ABOUT   //     */
+/*      //    CONTACT   //     */
 
 /*# sourceMappingURL=main.css.map */
