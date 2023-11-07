@@ -79,7 +79,6 @@ p a:hover {
   font-size: calc(2.35rem + 1.2vw);
   font-weight: 800;
   line-height: 1.5;
-  padding-top: 5rem;
   margin-bottom: 2.5rem;
 }
 
@@ -104,7 +103,7 @@ p a:hover {
 .navbar li a:hover {
   transform: translateY(-0.3rem);
   transition: all 0.5s ease-out;
-  color: #f6be5f;
+  color: #73ff00;
 }
 
 .navbar-dark {
@@ -197,7 +196,24 @@ footer p {
   font-size: 2rem;
 }
 .social-nav__link:hover {
-  color: #f6be5f;
+  color: #8eff31;
+}
+
+.btn-primary {
+  --bs-btn-color: rgb(0, 0, 0);
+  --bs-btn-bg: #f6be5f;
+  --bs-btn-border-color: #2b2d42;
+  --bs-btn-hover-color: #2b2d42;
+  --bs-btn-hover-bg: #9fff51;
+  --bs-btn-hover-border-color: #2b2d42;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #2b2d42;
+  --bs-btn-active-bg: rgb(255, 187, 0);
+  --bs-btn-active-border-color: #000000;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
 }
 
 /*      //    HOME   //         */
@@ -217,7 +233,19 @@ div > picture img {
   margin: 0;
   animation: fadeIn;
   animation-duration: 4.5s;
-  border-radius: 10rem;
+  border-radius: 100rem;
 }
+
+@media screen and (min-width: 992px) {
+  .titular {
+    padding-top: 6rem;
+  }
+}
+/*
+.card {
+  --bs-card-bg: #282a3e;
+  color: $color-texto;
+}
+*/
 
 /*# sourceMappingURL=main.css.map */
