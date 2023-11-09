@@ -242,9 +242,9 @@ footer p {
 div > picture img {
   display: inline-block;
   margin: 0;
-  animation: fadeIn;
-  animation-duration: 4.5s;
-  border-radius: 100rem;
+  animation: bounceInRight;
+  animation-duration: 1s;
+  border-radius: 20rem;
 }
 
 /*      //    SKILLS   //     */
@@ -266,6 +266,24 @@ div > picture img {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 810px) {
+  .skills {
+    margin: 100px 50px 10px 50px;
+    padding: 50px 50px 10px 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills {
+    margin: 100px 100px 10px 100px;
+    padding: 50px 50px 10px 100px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .skills {
+    margin: 90px 100px 0px 100px;
+    padding: 50px 50px 0px 300px;
+  }
+}
 /*      //    LISTAS   //     */
 .lista__item::marker {
   font-family: "Material Icons";
@@ -308,9 +326,7 @@ div > article ul li {
   animation-delay: 0s;
 }
 
-/*      //    SKILLS MEDIA QUERIES  //     */
 /*      //    PORTFOLIO   //     */
-/*      //    PORTFOLIO MEDIA QUERIES   //     */
 @media screen and (min-width: 300px) {
   .titular__portfolio {
     font-size: calc(2.35rem + 1.2vw);
@@ -330,7 +346,15 @@ div > article ul li {
     padding-top: 6rem;
   }
 }
-/*      //    ABOUT   //     */
+/*      //    PORTFOLIO ANIMACIONES   //     */
+section > div h1 {
+  display: inline-block;
+  margin: 0;
+  animation: bounceInDown;
+  animation-duration: 1s;
+}
+
+/*      //    BLOG   //     */
 /*      //    CONTACT   //     */
 
 /*# sourceMappingURL=main.css.map */

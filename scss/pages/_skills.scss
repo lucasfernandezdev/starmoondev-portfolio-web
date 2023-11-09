@@ -21,6 +21,25 @@
   }
 }
 
+@media screen and (min-width: 810px) {
+  .skills {
+    margin: 100px 50px 10px 50px;
+    padding: 50px 50px 10px 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills {
+    margin: 100px 100px 10px 100px;
+    padding: 50px 50px 10px 100px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .skills {
+    margin: 90px 100px 0px 100px;
+    padding: 50px 50px 0px 300px;
+  }
+}
+
 /*      //    LISTAS   //     */
 
 .lista__item::marker {
@@ -66,5 +85,3 @@ div > article ul li {
   animation-duration: 1.5s;
   animation-delay: 0s;
 }
-
-/*      //    SKILLS MEDIA QUERIES  //     */

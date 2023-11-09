@@ -1,7 +1,5 @@
 /*      //    PORTFOLIO   //     */
 
-/*      //    PORTFOLIO MEDIA QUERIES   //     */
-
 @media screen and (min-width: 300px) {
   .titular {
     &__portfolio {
@@ -27,4 +25,13 @@
       padding-top: 6rem;
     }
   }
+}
+
+/*      //    PORTFOLIO ANIMACIONES   //     */
+
+section > div h1 {
+  display: inline-block;
+  margin: 0;
+  animation: bounceInDown;
+  animation-duration: 1s;
 }
