@@ -1,1 +1,127 @@
 /*      //    CONTACT   //     */
+
+.form__item {
+  margin-bottom: 1rem;
+  position: relative;
+
+  label {
+    position: absolute;
+    font-size: 30px;
+    left: 0.7rem;
+    top: 0.1em;
+  }
+
+  input {
+    width: 100%;
+    border-radius: 0.8rem;
+    border: 0;
+    padding: 1rem;
+    padding-left: 3rem;
+    color: #c7c7db;
+    background-color: #30334a;
+  }
+
+  textarea {
+    color: #c7c7db;
+    border-radius: 0.8rem;
+    border: 0;
+    padding: 1rem;
+    width: 100%;
+    background-color: #30334a;
+  }
+}
+
+/*      //    CONTACT ANIMACIONES   //     */
+
+section > h1 {
+  display: inline-block;
+  margin: 0;
+  animation: zoomInDown;
+  animation-duration: 1s;
+}
+
+/*      //    CONTACT MEDIAQUERIES  //     */
+
+@media screen and (min-width: 320px) {
+  .titular {
+    &__contact {
+      font-size: calc(1.8rem + 1vw);
+      margin-top: 60px;
+      padding-top: 40px;
+    }
+  }
+
+  .contact__content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .titular {
+    &__contact {
+      font-size: calc(2rem + 1.1vw);
+      margin-top: 50px;
+      padding-top: 30px;
+    }
+  }
+
+  .contact__content {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .titular {
+    &__contact {
+      font-size: calc(2.4rem + 1.2vw);
+      margin-top: 60px;
+      padding-top: 40px;
+    }
+  }
+
+  .contact__content {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .titular {
+    &__contact {
+      font-size: calc(3rem + 1.2vw);
+      margin-top: 60px;
+      padding-top: 40px;
+    }
+  }
+
+  .contact__content {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titular {
+    &__contact {
+      font-size: calc(3rem + 1.2vw);
+      margin-top: 50px;
+      padding-top: 40px;
+    }
+  }
+
+  .contact__content {
+    padding: 2rem 4rem 2em 4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .titular {
+    &__contact {
+      font-size: calc(3rem + 1.2vw);
+      margin-top: 70px;
+      padding-top: 50px;
+    }
+  }
+
+  .contact__content {
+    padding: 3rem 35rem 3em 35rem;
+  }
+}
