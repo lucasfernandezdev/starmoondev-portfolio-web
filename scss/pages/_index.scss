@@ -10,3 +10,12 @@
     color: white;
   }
 }
+
+/*      //    HOME ANIMACIONES   //         */
+
+div > img {
+  display: inline-block;
+  margin: 0;
+  animation: zoomIn;
+  animation-duration: 1s;
+}
