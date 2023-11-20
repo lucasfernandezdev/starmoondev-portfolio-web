@@ -10,14 +10,14 @@
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  margin: 50px 20px 20px 20px;
-  padding: 60px 20px 20px 20px;
+  margin: 70px 10px 20px 20px;
+  padding: 20px 10px 20px 10px;
   font-size: 18px;
 
   &__list {
     list-style: initial;
     columns: 2;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -36,7 +36,7 @@
 @media screen and (min-width: 1400px) {
   .skills {
     margin: 90px 100px 0px 100px;
-    padding: 50px 50px 0px 300px;
+    padding: 50px 50px 0px 400px;
   }
 }
 
