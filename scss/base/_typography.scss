@@ -56,6 +56,58 @@ p {
   -webkit-background-clip: text;
 }
 
+.gradiente-t__discord {
+  background-image: linear-gradient(45deg, #5865f2 0%, #7983f5 50%, #a5b4fc 100%);
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradiente-t__github {
+  background-image: linear-gradient(45deg, #ffffff 0%, #6e6e6e 50%, #ffffff 100%);
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradiente-t__linkedin {
+  background-image: linear-gradient(45deg, #0a66c2 0%, #1479d8 50%, #33a1ff 100%);
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradiente-t__instagram {
+  background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 30%,
+    #dc2743 60%,
+    #cc2366 80%,
+    #bc1888 100%
+  );
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradiente-t__twitter {
+  background-image: linear-gradient(45deg, #1da1f2 0%, #69c9ff 50%, #a6e7ff 100%);
+  font-style: normal;
+  background-clip: border-box;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .overline {
   font-family: "Roboto Mono", monospace;
   font-size: calc(1rem + 1vw);
